@@ -1,6 +1,6 @@
 <?php
 
-    class html {
+    class Html {
 
         private Head $head;
         private Body $body;
@@ -19,6 +19,38 @@
             "</html>";
         }
 
+    }
+
+    class Head {
+
+        private Content $headContent;
+
+        public function __construct ($content) {
+            $this->headContent = $content;
+        }
+
+        public function getHeadContent () {
+            return $this->headContent;
+        }
+
+    }
+
+    class Body {
+
+        private Content $bodyContent;
+
+        public function __construct ($content) {
+            $this->bodyContent = $content;
+        }
+
+        public function getBodyContent () {
+            return $this->bodyContent;
+        }
+
+    }
+
+    class Content {
+        
     }
 
 ?>

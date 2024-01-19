@@ -12,6 +12,13 @@
 
         }
 
+        public function build ($lang="en") {
+            echo "<!DOCTYPE html><html lang='$lang'>".
+            $this->head.
+            $this->body.
+            "</html>";
+        }
+
     }
 
 ?>

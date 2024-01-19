@@ -41,3 +41,5 @@
     i am not to make this a correctly text for you ,
     because you understand me any way make it your own =)
 </pre>
+
+<a href="https://github.com/versoftly/prototypes/blob/main/src/LEEME.md">lee esto</a>

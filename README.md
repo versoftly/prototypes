@@ -36,3 +36,8 @@
     also little cool to the new ones.
 
 </p>
+
+<pre>
+    i am not to make this a correctly text for you ,
+    because you understand me any way make it your own =)
+</pre>

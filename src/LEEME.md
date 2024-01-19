@@ -8,7 +8,9 @@
 
 <p>
     En pocas palabras sin hacer largo el cuento,<br>
-    nose a donde o en que se puede convertir los <br>
+    nose a donde te llevara buscando (hablando de la informacion que puedes adquirir con ayuda de google) 
+    en internet partiendo desde php<br>
+    o en que se puede convertir los <br>
     scripts php principalmente que aqui almaceno.
 </p>
 

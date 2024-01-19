@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+header.fade {
+    background-color: rgba(74, 144, 226, 0.7);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 300px 1fr; /* Use equal-width columns */
+    gap: 20px;
+    flex-grow: 1;
+    align-items: center; /* Center items vertically */
+}
+
+aside, .content {
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 100%; /* Ensure 100% width for both columns */
+}
+
+.content {
+    border: 1px solid #ddd;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Font sizes */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p, footer h2 {
+    font-size: 1em;
+}
+
+/* Font styles */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: normal;
+}
+
+footer {
+    font-weight: bold;
+}
+
+
+@media (max-width: 500px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

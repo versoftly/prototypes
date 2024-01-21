@@ -20,6 +20,10 @@
             <p>Welcome to Adaptowebs - Where Aspirations Meet Innovation.</p>
         </header>
         <main>
+            <nav class=\"content\">
+                <h2>Proyectos</h2>
+                <a href=\"./page_1.php\">Freelancer</a>
+            </nav>
             <aside>
                 <div class=\"content\">
                     <h2>About Adaptowebs</h2>
@@ -38,7 +42,7 @@
             </div>
         </main>
         <footer>
-            <h2>&copy; 2024 Adaptowebs - Shaping the Future, One Web at a Time</h2>
+            <h2>&copy; Ramiro G Glez. 2024 Adaptowebs - Shaping the Future, One Web at a Time</h2>
         </footer>
     ");
     $body = new Body($contentBody);

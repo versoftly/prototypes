@@ -4,10 +4,6 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
 
-    require_once ("./WebPageClass.php");
-
-    $myPage = new WebPage ();
-
-    $myPage->generateHTML();
+    require_once ("./src/AdaptoWebs.php");
     
 ?>

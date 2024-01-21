@@ -37,7 +37,7 @@
                         8 0 1 1 11.314 0z\" />
                     </svg>
                     <p>
-                        <a href=\"https://adaptowebs.com\">ADAPTOWEBS</a>
+                        <a href=\"https://adaptowebs.com\" class=\"link\">ADAPTOWEBS</a>
                     </p>
                 </div>
                 <a class=\"boton\" href=\"#\">Contactar</a>

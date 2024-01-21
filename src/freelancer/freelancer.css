@@ -158,6 +158,17 @@ h1,h2,h3 {
     align-items: flex-end;
 }
 
+.link {
+    text-decoration: none;
+    color:#DFE9F3;
+    font-size: 3rem;
+    transition: all .5s ease-in;
+}
+
+.link:hover {
+    color: #393d41;
+}
+
 
 
 /** Servicios **/

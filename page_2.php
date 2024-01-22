@@ -24,6 +24,7 @@
         <meta charset="UTF-8">
         <title>ADAPTOWEBS</title>
         <link rel="stylesheet" href="./src/contador/contador.css">
+        <link rel=\"stylesheet\" href=\"./src/freelancer/normalize.css\">
         <link href="https://fonts.googleapis.com/css?family=Oswald:700,400,300" 
         rel="stylesheet" 
         type="text/css">

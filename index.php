@@ -24,6 +24,7 @@
                 <h2>Proyectos</h2>
                 <a href=\"./page_1.php\">Freelancer</a>
                 <a href=\"./page_2.php\">Contador</a>
+                <a href=\"./page_3.php\">Contacto</a>
             </nav>
             <aside>
                 <div class=\"content\">

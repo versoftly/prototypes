@@ -37,7 +37,7 @@
         </div>
         <h1>Contador</h1>
         <div class="visitantes">
-            <p class="numero"><?php echo contar_usuarios(); ?></p>
+            <p class="numero">'.contar_usuarios().'</p>
             <p class="texto">Visitas</p>
         </div>
         <footer class=\"footer\">

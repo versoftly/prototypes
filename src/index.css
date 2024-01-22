@@ -3,6 +3,18 @@
     padding: 0;
     margin: 0;
 }
+
+a {
+    font-size: large;
+    text-decoration: none;
+    color: #cf1010;
+    transition: all .5s ease;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
